@@ -6,6 +6,8 @@
 - _**core_microbiome_final.R**_ is the R-script used to calculate the core microbiota at the baseline  
 - _**forward_dada2.R**_ is the R-script used to process the raw sequence.  
 - _**__config.R**_ is a configuration file that must be located in the same working directory as the _forward_dada2.R_ script.
+- _**glm_lefse.R**_ implements a linear mixed model on microbial features identified as significant by Linear discriminant analysis Effect Size (LEfSe).
+- _**linear_model_alphadiversity.R**_ is a linear mixed model on alpha diversity metrics at the baseline.
 - _**Maaslin2.R**_ is the R-script used to generate the linear mixed models.  
 - _**phyloseq_final.R**_ is the R-script used to generate the phyloseq object and prilimary processing.  
 - _**QIIME2_alpha_beta_diversity_baseline**_ folder contains command used to generate alpha and beta diversity differences at the baseline, metadata, feature-table, tree and README file.  
