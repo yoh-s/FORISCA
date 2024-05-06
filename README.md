@@ -16,6 +16,6 @@
 - _**test_data**_ folder contains test data (13-sample (.fastq file)and metadata (.xlsx)).
 ## **Phyloseq object**
 - _**prevabun_tree0_rooted.rds**_ is the final phyloseq object generated using phyloseq_final.R script  
-- please modify the _**"dbs"**_ value inside the _"__config.R"_ file as follows to be able to run the _forward_dad2.R_ file to run properly
-    - we assume you downloaded the [silva_nr99_v138.1_wSpecies_train_set.fa.gz] (https://zenodo.org/record/4587955/files/silva_nr99_v138.1_wSpecies_train_set.fa.gz?download=1) file and saved it in a folder called "database" in your R working directory (your_R_working_directory) in a folder named "database"
-    - dbs = list("16S" = "~/your_R_working_directory/database/silva_nr99_v138.1_wSpecies_train_set.fa.gz")
+- Modify the _**"dbs"**_ value in the _"__config.R"_ file to ensure the _forward_dad2.R_ script runs properly
+    - This assume you have downloaded the [silva_nr99_v138.1_wSpecies_train_set.fa.gz] (https://zenodo.org/record/4587955/files/silva_nr99_v138.1_wSpecies_train_set.fa.gz?download=1) file and placed it in a folder named "database" within your working directory.
+    - dbs = list("16S" = "~/your_working_directory/database/silva_nr99_v138.1_wSpecies_train_set.fa.gz")
