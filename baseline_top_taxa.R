@@ -2,8 +2,6 @@
 library(phyloseq)
 library(ggplot2)
 library(tidyverse)
-library(microViz)
-library(tidyverse)
 library(magrittr)
 tidyverse_update(recursive = FALSE, repos = getOption("repos"))
 
